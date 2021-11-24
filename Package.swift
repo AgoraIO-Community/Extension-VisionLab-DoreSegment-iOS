@@ -17,15 +17,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "DoreSegment",
-            path: "DoreSegment.xcframework"
-//            url: "https://github.com/AgoraIO-Community/Extension-VisionLab-DoreSegment-iOS/releases/download/0.0.1/DoreSegment.xcframework.zip",
-//            checksum: "f0044f7cad3efe253811b3c4aa87f223c31027d88a5cc7253ae48c16bbb24e7c"
+            url: "https://github.com/AgoraIO-Community/Extension-VisionLab-DoreSegment-iOS/releases/download/0.0.1/DoreSegment.xcframework.zip",
+            checksum: "f0044f7cad3efe253811b3c4aa87f223c31027d88a5cc7253ae48c16bbb24e7c"
         ),
         .binaryTarget(
             name: "DoreCoreAI",
-            path: "DoreCoreAI.xcframework"
-//            url: "https://github.com/AgoraIO-Community/Extension-VisionLab-DoreSegment-iOS/releases/download/0.0.1/DoreCoreAI.xcframework.zip",
-//            checksum: "f0044f7cad3efe253811b3c4aa87f223c31027d88a5cc7253ae48c16bbb24e7c"
+            url: "https://github.com/AgoraIO-Community/Extension-VisionLab-DoreSegment-iOS/releases/download/0.0.1/DoreCoreAI.xcframework.zip",
+            checksum: "f0044f7cad3efe253811b3c4aa87f223c31027d88a5cc7253ae48c16bbb24e7c"
         )
     ]
 )
