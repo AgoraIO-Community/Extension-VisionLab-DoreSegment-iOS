@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "DoreSegment",
     defaultLocalization: "en",
-    platforms: [.iOS(.v10)],
+    platforms: [.iOS(.v12)],
     products: [
         .library(
             name: "DoreSegment",
