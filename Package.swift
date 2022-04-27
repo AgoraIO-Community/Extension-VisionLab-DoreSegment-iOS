@@ -9,21 +9,20 @@ let package = Package(
     platforms: [.iOS(.v12)],
     products: [
         .library(
-            name: "DoreSegment",
-            targets: ["DoreSegment", "DoreCoreAI"]
+            name: "DoreSegment", targets: ["DoreSegment", "DoreCoreAI"]
         )
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
             name: "DoreSegment",
-            url: "https://github.com/AgoraIO-Community/Extension-VisionLab-DoreSegment-iOS/releases/download/1.0.1/DoreSegment.xcframework.zip",
-            checksum: "f4f67908074d27d28634459f02b6077471cae457ced607fe34464641123fbcbc"
+            url: "https://github.com/AgoraIO-Community/Extension-VisionLab-DoreSegment-iOS/releases/download/1.0.2/DoreSegment.xcframework.zip",
+            checksum: "88bc8b327e43d32c18c56d3e16c62d4ab9c7c206041a2769e76bb22533265a04"
         ),
         .binaryTarget(
             name: "DoreCoreAI",
-            url: "https://github.com/AgoraIO-Community/Extension-VisionLab-DoreSegment-iOS/releases/download/1.0.1/DoreCoreAI.xcframework.zip",
-            checksum: "ec75531fd53df55abb5ea62fb51b428953a0a2e61264044498908a41fcb74d58"
+            url: "https://github.com/AgoraIO-Community/Extension-VisionLab-DoreSegment-iOS/releases/download/1.0.2/DoreCoreAI.xcframework.zip",
+            checksum: "cea86c43e2acbb936796eb79a165c1ecfac1d64615338d22fd9a9d062c11cac6"
         )
     ]
 )
